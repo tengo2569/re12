@@ -239,6 +239,7 @@
     header {
         position: absolute;
         background-image: url(./asssets/desktop/desktooopppppppppp.png);
+        background-size: cover ;
         width: 1440px;
         height:650px;
         top: 0%;
