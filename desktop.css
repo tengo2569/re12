@@ -29,7 +29,9 @@
        
 
     }
-
+        .burgerlist{
+            display: none;
+        }
     .desktop1 {
         display: flex;
     }
