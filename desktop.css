@@ -190,10 +190,10 @@
 
     .box1 {
         display: flex;
-        position: relative;
         left: -10%;
         justify-content: center;
-        width: 100vw;
+        width:1440px;
+        margi-top:550px;
         
     }
 
@@ -207,7 +207,7 @@
     }
 
     .txtbox1 {
-        position: absolute;
+       
         width: 541px;
         height: 320px;
         /* border: 1px solid black; */
