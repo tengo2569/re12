@@ -21,6 +21,7 @@ body {
 
 header {
     /* border: 2px solid black; */
+    position: relative;
     height: auto;
     width: 375px;
     height: 650px;
