@@ -160,6 +160,7 @@
 
     .midtext {
         position: relative;
+        left:30px;
         display: flex;
         flex-direction: row;
     }
