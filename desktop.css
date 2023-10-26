@@ -191,7 +191,7 @@
     .box1 {
         display: flex;
         position: relative;
-        left: -10%;
+        left: -40px;
         justify-content: center;
         width: 100vw;
         margin-top: 40%;
