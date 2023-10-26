@@ -4,7 +4,6 @@
 
         width: 1440px;
         background: #FFF;
-        position:relative;
     }
     
     .images {
@@ -24,7 +23,7 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         column-gap: 30px;
-        left: -30px;
+        left: -10%;
 
     }
 
@@ -49,9 +48,8 @@
     }
     
     .gridbox {
-        width: 1440px;
-        top:150%;
-        position:absolute;
+        width: 100vw;
+        margin-top: 10%;
       
 
     }
@@ -59,7 +57,7 @@
     .midtext {
         /* border: 1px solid black; */
         height: 300px;
-        margin-left: -10px;
+        /* margin-top: 30%; */
     }
 
     .txtonimg1 p,
@@ -83,8 +81,7 @@
 
     footer {
         height: 160px;
-        position: absolute;
-        top:210%;
+        position: relative;
         width: 100vw;
 
     }
@@ -194,10 +191,10 @@
     .box1 {
         display: flex;
         position: relative;
-        left: -40px;
+        left: -10%;
         justify-content: center;
         width: 100vw;
-        margin-top: 40%;
+        
     }
 
     .imgboy {
@@ -241,7 +238,7 @@
     header {
         position: absolute;
         background-image: url(./asssets/desktop/desktooopppppppppp.png);
-        width: 1440px;
+        width: 100vw;
         height:650px;
         top: 0%;
         /* margin-top: 20px; */
