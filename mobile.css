@@ -14,19 +14,18 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Alata', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif,'Alata', sans-serif;
     overflow-x: hidden;
 }
 
 
 header {
-    /* border: 2px solid black; */
-    position: relative;
+   position: relative;
     height: auto;
     width: 375px;
     height: 650px;
     background-image: url(./asssets/mobile/headerimage.png);
-    margin-top: -7px;
+  margin-top: -7px;
 
 }
 
@@ -39,12 +38,19 @@ header {
 .burgerlist{
     position: relative;
     width: 375px;
-    height: 658px;
+    height: 652px;
     background-color: #000;
     top: -6%;
-    left:0%;
-    display: none;
+    left:105%;
+    display: block;
+    transition: all 1s;
+  transform: translate(0%);
+  z-index: 4;
 }
+.active{
+    transform: translatex(-105%);
+    transition: all 2s;
+  }
 .burgerlist p{
     color: white;
     display: grid;
@@ -86,15 +92,18 @@ text-decoration: none;
     position: absolute;
     top: 7%;
     left: 87%;
+    z-index: 20;
 }
 
 .hidecontent {
     display: none;
 }
 
-.burgricon{
+/* .burgricon{
     cursor: pointer;
-}
+    z-index: 4;
+    color: red;
+} */
 
 .desktopimg {
     display: none;
@@ -280,7 +289,8 @@ footer {
     height: 600px;
 }
 .hide a ,h1{
-    margin-top: 25px;
+    margin-top: 65px;
+    margin-left: 40px;
     color: #FFF;
 font-family: 'Josefin Sans';
 font-size: 24px;
