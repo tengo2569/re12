@@ -1,14 +1,12 @@
-@media (width>1440px){
-
-header{
+@media (width>1440px) {
     
-    width: 100%;
-    background-image: url(/asssets/desktop/desktooopppppppppp.png);
-   
-    background-repeat: no-repeat;
-}
+    .container {
 
-.images {
+        width: 1440px;
+        background: #FFF;
+    }
+    
+    .images {
         display: none;
     }
 
@@ -20,8 +18,285 @@ header{
         display: flex;
     }
 
+    .imgbox1 , .imgbox2 {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 30px;
+        left: -10%;
+
+    }
 
     .desktop1 {
         display: flex;
     }
+
+    .imgbox2 {
+       
+        margin-top: 30px;
+       
+    }
+
+    .txtonimg1 {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        gap: 157px;
+        top: 72%;
+        left: 5%;
+    z-index: 3;
+    }
+    
+    .gridbox {
+        width: 100vw;
+        margin-top: 10%;
+      
+
+    }
+
+    .midtext {
+        /* border: 1px solid black; */
+        height: 300px;
+        /* margin-top: 30%; */
+    }
+
+    .txtonimg1 p,
+    .txtonimg2 p {
+        color:#FFF;
+        font-size: 32px;
+        
+    }
+
+    .txtonimg2 {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        gap: 120px;
+        top: 75%;
+        left: 6%;
+        z-index: 3;
+      
+
+    }
+
+    footer {
+        height: 160px;
+        position: relative;
+        width: 100vw;
+
+    }
+
+    .headline {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    .headlinelist {
+        display: none;
+
+    }
+
+    .hidelist {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+
+    }
+
+    .hidelist a {
+        color: #FFF;
+        font-family: 'Alata';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        cursor: grab;
+        text-decoration: none;
+
+
+    }
+
+    .desktop1:hover,
+    .desktop:hover {
+        transform: scale(1.1);
+        transition: 1.3s;
+         /* border-radius: 30%; */
+        cursor: grabbing;
+        filter: contrast(25%);
+       
+    
+        
+    }
+    .txtonimg2 p:hover{
+        color: black;
+        
+      
+
+    }
+
+    footer p {
+        width: 275px;
+        position: absolute;
+        left: 71%;
+    }
+
+    footer img {
+        position: absolute;
+        top: 25%;
+        left: 80%;
+        cursor: grab;
+    }
+
+    footer p {
+        position: absolute;
+        /* color:red; */
+        top: 55%;
+        left: 76%;
+    }
+
+    .midtext {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .midtext button {
+        background: #000;
+        top: -20%;
+        left: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+
+    }
+
+    .midtext button:hover {
+        transition: 1s;
+        background-color: green;
+        cursor: grab;
+    }
+
+    h5 {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        font-size: 48px;
+    }
+
+    .box1 {
+        display: flex;
+        position: relative;
+        left: -10%;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 40%;
+    }
+
+    .imgboy {
+        display: none;
+    }
+
+    .boydesktop {
+        margin-left: -25%;
+        display: flex;
+    }
+
+    .txtbox1 {
+        position: absolute;
+        width: 541px;
+        height: 320px;
+        /* border: 1px solid black; */
+        background: #FFF;
+        top: 36.5%;
+        left: 52%;
+    }
+
+    button {
+        display: none;
+    }
+
+    h3 {
+        font-size: 48px;
+        width: 445px;
+        line-height: 48px;
+    }
+
+    h4 {
+        width: 445px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    header {
+        position: absolute;
+        background-image: url(./asssets/desktop/desktooopppppppppp.png);
+        width: 100vw;
+        height:650px;
+        top: 0%;
+        /* margin-top: 20px; */
+    }
+      
+    .brgbox {
+        display: none;
+    }
+
+    .firstline img {
+        display: none;
+    }
+
+    .firstline {}
+
+    .hidecontent {
+        position: absolute;
+        width: 380px;
+        height: 35px;
+        display: flex;
+        gap: 35px;
+        left: 67%;
+        top: 14%;
+
+    }
+
+    .firstline p {
+        left: 6%;
+        top: 8%;
+    }
+
+
+
+
+    .headtxt {
+        width: 650px;
+        height: 350px;
+    }
+
+    .headtxt p {
+        font-size: 72px;
+        line-height: 70px;
+
+
+    }
+
+    .hidecontent a {
+       
+        color: #FFF;
+        font-family: 'Alata';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 166.667% */
+        text-decoration: none;
+        cursor: grabbing;
+    }
+    
+
 }
