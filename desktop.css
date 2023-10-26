@@ -1,4 +1,8 @@
 @media (width>1440px) {
+    body{
+        width: 100vw;
+    }
+    
     .container {
 
         width: 1440px;
