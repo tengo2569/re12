@@ -21,11 +21,11 @@ body {
 
 header {
     /* border: 2px solid black; */
-    position: relative;
     height: auto;
     width: 375px;
     height: 650px;
     background-image: url(./asssets/mobile/headerimage.png);
+    margin-top: -7px;
 
 }
 
