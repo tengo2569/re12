@@ -23,7 +23,7 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         column-gap: 30px;
-        left: -13%;
+        left: -47px;
 
     }
 
@@ -193,7 +193,7 @@
     .box1 {
         display: flex;
         position: relative;
-        left: -10%;
+        left: -10px;
         justify-content: center;
         width: 100vw;
         margin-top: 40%;
